@@ -6,7 +6,7 @@
     <id>UMLClass</id>
     <coordinates>
       <x>260</x>
-      <y>210</y>
+      <y>290</y>
       <w>260</w>
       <h>120</h>
     </coordinates>
@@ -24,22 +24,24 @@
     <id>UMLNote</id>
     <coordinates>
       <x>0</x>
-      <y>190</y>
-      <w>180</w>
-      <h>80</h>
+      <y>240</y>
+      <w>200</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>bg=white
 You can write accessors
 and mutators to define
 and implement
-( [get/set] )</panel_attributes>
+( [get/set] ), much more
+convenient than writing
+getFirstName, setFirstName...</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>630</x>
-      <y>110</y>
+      <y>190</y>
       <w>210</w>
       <h>130</h>
     </coordinates>
@@ -57,15 +59,15 @@ and implement
     <id>UMLNote</id>
     <coordinates>
       <x>0</x>
-      <y>300</y>
-      <w>220</w>
+      <y>380</y>
+      <w>230</w>
       <h>170</h>
     </coordinates>
     <panel_attributes>bg=white
 You can omit typing argument
 types for constructors if the
-have the same names as his
-attributes. The generator is
+have the same name as one of the
+class attributes. The generator is
 smart enough to figure out their
 types and also write the
 implementation of the constructor
@@ -79,7 +81,7 @@ ex :
     <id>Relation</id>
     <coordinates>
       <x>510</x>
-      <y>160</y>
+      <y>240</y>
       <w>140</w>
       <h>100</h>
     </coordinates>
@@ -91,7 +93,7 @@ ex :
     <id>UMLNote</id>
     <coordinates>
       <x>920</x>
-      <y>170</y>
+      <y>250</y>
       <w>170</w>
       <h>70</h>
     </coordinates>
@@ -103,8 +105,8 @@ only for each one of them</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>320</x>
-      <y>500</y>
+      <x>290</x>
+      <y>600</y>
       <w>390</w>
       <h>100</h>
     </coordinates>
@@ -121,18 +123,18 @@ only for each one of them</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>400</x>
-      <y>320</y>
-      <w>120</w>
-      <h>200</h>
+      <y>400</y>
+      <w>90</w>
+      <h>220</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;100.0;180.0</additional_attributes>
+    <additional_attributes>10.0;10.0;70.0;200.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
       <x>10</x>
-      <y>500</y>
+      <y>580</y>
       <w>220</w>
       <h>170</h>
     </coordinates>
@@ -151,41 +153,41 @@ implemented like this:
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>170</x>
-      <y>200</y>
-      <w>110</w>
-      <h>60</h>
+      <x>190</x>
+      <y>250</y>
+      <w>90</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>90.0;40.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>210</x>
-      <y>260</y>
-      <w>70</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>50.0;10.0;10.0;60.0</additional_attributes>
+    <additional_attributes>70.0;70.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>220</x>
-      <y>520</y>
-      <w>120</w>
-      <h>50</h>
+      <y>340</y>
+      <w>60</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>100.0;10.0;10.0;30.0</additional_attributes>
+    <additional_attributes>40.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>620</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>830</x>
-      <y>140</y>
+      <y>220</y>
       <w>110</w>
       <h>70</h>
     </coordinates>
@@ -196,7 +198,7 @@ implemented like this:
     <id>UMLClass</id>
     <coordinates>
       <x>880</x>
-      <y>340</y>
+      <y>420</y>
       <w>410</w>
       <h>100</h>
     </coordinates>
@@ -213,7 +215,7 @@ implemented like this:
     <id>Relation</id>
     <coordinates>
       <x>510</x>
-      <y>260</y>
+      <y>340</y>
       <w>390</w>
       <h>120</h>
     </coordinates>
@@ -223,20 +225,20 @@ implemented like this:
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>380</y>
-      <w>420</w>
-      <h>150</h>
+      <x>580</x>
+      <y>460</y>
+      <w>410</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>lt=-&gt;&gt;&gt;&gt;
 *-employees [get/add/contains/remove/clear/singular(employee)]</panel_attributes>
-    <additional_attributes>120.0;130.0;290.0;10.0</additional_attributes>
+    <additional_attributes>100.0;150.0;300.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
       <x>990</x>
-      <y>510</y>
+      <y>590</y>
       <w>300</w>
       <h>170</h>
     </coordinates>
@@ -256,7 +258,7 @@ properties has the property singular(employee)</panel_attributes>
     <id>UMLInterface</id>
     <coordinates>
       <x>560</x>
-      <y>0</y>
+      <y>80</y>
       <w>140</w>
       <h>70</h>
     </coordinates>
@@ -267,7 +269,7 @@ properties has the property singular(employee)</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>630</x>
-      <y>10</y>
+      <y>90</y>
       <w>150</w>
       <h>120</h>
     </coordinates>
@@ -278,7 +280,7 @@ properties has the property singular(employee)</panel_attributes>
     <id>UMLNote</id>
     <coordinates>
       <x>330</x>
-      <y>0</y>
+      <y>80</y>
       <w>190</w>
       <h>70</h>
     </coordinates>
@@ -291,7 +293,7 @@ classes and interfaces</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>510</x>
-      <y>10</y>
+      <y>90</y>
       <w>130</w>
       <h>30</h>
     </coordinates>
@@ -302,7 +304,7 @@ classes and interfaces</panel_attributes>
     <id>UMLNote</id>
     <coordinates>
       <x>170</x>
-      <y>80</y>
+      <y>160</y>
       <w>240</w>
       <h>80</h>
     </coordinates>
@@ -317,7 +319,7 @@ of its methods synchronized</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>310</x>
-      <y>150</y>
+      <y>230</y>
       <w>30</w>
       <h>80</h>
     </coordinates>
@@ -328,7 +330,7 @@ of its methods synchronized</panel_attributes>
     <id>UMLNote</id>
     <coordinates>
       <x>720</x>
-      <y>510</y>
+      <y>590</y>
       <w>250</w>
       <h>170</h>
     </coordinates>

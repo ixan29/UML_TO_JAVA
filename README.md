@@ -27,3 +27,5 @@ This is currently a beta version of the generator. Errors are to be expected.
 
 The generator currently supports only uxf files.
 You can download the free open-source software UMLet to create uxf files.
+
+The project uses the open source tinyxml2 library to parse uxf files which are written in xml. You can find the library here: https://github.com/leethomason/tinyxml2
